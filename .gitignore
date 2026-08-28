@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Raw / local dataset files
+data/*.csv
+data/*.xlsx
+
+# KEEP the trained model for deployment
+# Do NOT ignore .joblib model files
+
+# Outputs generated during development
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/*.csv
+
+# Keep folder placeholders
+!outputs/.gitkeep
+!outputs/figures/.gitkeep
+!models/.gitkeep
+
+# Antigravity / IDE scratch files
+scratch/
