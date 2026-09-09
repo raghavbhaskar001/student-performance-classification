@@ -1,5 +1,7 @@
 # Student Performance Classification using Classical Machine Learning
 
+🌐 **Live Web App**: [https://students-performance-classification.streamlit.app/](https://students-performance-classification.streamlit.app/)
+
 A supervised multi-class Machine Learning system designed to predict and classify student academic performance into three distinct tiers:
 - **High Performer**
 - **Average Performer**
@@ -168,6 +170,8 @@ Production inference is encapsulated in `src/predict.py` via the `predict_perfor
 ---
 
 ## Streamlit Application
+
+🌐 **Live Deployed App**: [https://students-performance-classification.streamlit.app/](https://students-performance-classification.streamlit.app/)
 
 The user interface is implemented in `app.py`:
 
