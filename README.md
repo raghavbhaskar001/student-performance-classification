@@ -1,6 +1,7 @@
 # Student Performance Classification using Classical Machine Learning
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raghavbhaskar001/student-performance-classification/blob/main/notebooks/Student_Performance_Classification_Colab.ipynb)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://student-performance-classification.streamlit.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/raghavbhaskar001/student-performance-classification)
 
 A supervised multi-class Machine Learning system designed to predict and classify student academic performance into three distinct tiers:
