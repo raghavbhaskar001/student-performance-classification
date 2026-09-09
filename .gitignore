@@ -15,6 +15,7 @@ env/
 # Raw / local dataset files
 data/*.csv
 data/*.xlsx
+!data/student_performance_data.csv
 
 # KEEP the trained model for deployment
 # Do NOT ignore .joblib model files

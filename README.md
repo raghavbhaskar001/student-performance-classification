@@ -1,5 +1,11 @@
 # Student Performance Classification using Classical Machine Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raghavbhaskar001/student-performance-classification/blob/main/notebooks/Student_Performance_Classification_Colab.ipynb)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/raghavbhaskar001/student-performance-classification)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.2%2B-orange.svg)](https://scikit-learn.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat&logo=streamlit)](https://streamlit.io/)
+
 A supervised multi-class Machine Learning system designed to predict and classify student academic performance into three distinct tiers:
 - **High Performer**
 - **Average Performer**
@@ -10,6 +16,23 @@ The classification model is built upon four foundational academic indicators:
 - **Quiz Score** (Continuous assessment score)
 - **Attendance Percentage** (Classroom attendance rate)
 - **Assignment Score** (Homework and practical assignment mark)
+
+---
+
+## 🚀 Live Interactive Google Colab Notebook
+
+You can inspect, execute, and present the complete end-to-end pipeline interactively in **Google Colab** with a single click:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raghavbhaskar001/student-performance-classification/blob/main/notebooks/Student_Performance_Classification_Colab.ipynb)
+
+### Google Colab Notebook Features:
+- **Zero-Configuration Setup**: Automatically detects the Colab runtime and clones/ingests `student_performance_data.csv` seamlessly without manual file uploads.
+- **Visual Exploratory Analysis (EDA)**: Target class imbalance breakdown, continuous assessment KDE curves, Pearson correlation heatmaps, and multi-class separation boxplots.
+- **Empirical Leakage Proof**: Mathematically proves why `Performance_Score` and `Student_ID` are strictly excluded from modeling.
+- **5-Fold Stratified Cross-Validation**: Comparative benchmark of Logistic Regression, Decision Trees, and Random Forests across Accuracy, Precision, Recall, and Macro F1.
+- **Held-Out Test Set Evaluation**: Complete evaluation on $N=200$ unseen test instances, featuring a high-resolution Confusion Matrix and 100% recall on at-risk students.
+- **Interactive Slider Demo (`ipywidgets`)**: Embedded interactive UI right inside Colab where examiners can adjust student marks via sliders and instantly view the predicted performance badge and probability distribution bar chart.
+- **Model Artifact Export**: Direct serialization and one-click download for `best_student_model.joblib`.
 
 ---
 
@@ -183,6 +206,7 @@ Classic ML project/
 │   └── best_student_model.joblib      # Serialized Scikit-learn winning pipeline
 │
 ├── notebooks/                         # Interactive Jupyter notebooks
+│   ├── Student_Performance_Classification_Colab.ipynb # Master Colab interactive showcase
 │   ├── 01_dataset_audit.ipynb         # Data audit & verification
 │   ├── 01_eda_and_preprocessing.ipynb # Exploratory data analysis & pipeline design
 │   └── 02_model_training_and_eval.ipynb# Model training, CV & evaluation
